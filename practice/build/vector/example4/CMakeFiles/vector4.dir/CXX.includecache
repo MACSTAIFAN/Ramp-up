@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mayur/practice/vector/example4/inc/vectoriterator.cpp
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+

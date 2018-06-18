@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mayur/practice/thread/example1/inc/threadbasic.cpp
+iostream
+-
+thread
+/home/mayur/practice/thread/example1/inc/thread
+

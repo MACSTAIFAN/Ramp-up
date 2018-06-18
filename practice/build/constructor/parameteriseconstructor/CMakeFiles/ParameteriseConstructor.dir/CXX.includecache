@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../constructor/parameteriseconstructor/inc/prconst.h
+
+/home/mayur/practice/constructor/parameteriseconstructor/src/main.cpp
+iostream
+-
+prconst.h
+/home/mayur/practice/constructor/parameteriseconstructor/src/prconst.h
+
+/home/mayur/practice/constructor/parameteriseconstructor/src/prconst.cpp
+prconst.h
+/home/mayur/practice/constructor/parameteriseconstructor/src/prconst.h
+

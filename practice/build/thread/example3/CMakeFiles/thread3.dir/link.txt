@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/thread3.dir/inc/timeexample.cpp.o  -o ../../bin/thread3 -rdynamic -lpthread 

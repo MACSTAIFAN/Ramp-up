@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inheritance/example1/inc/shape.h
+
+../inheritance/example1/inc/squere.h
+shape.h
+../inheritance/example1/inc/shape.h
+
+/home/mayur/practice/inheritance/example1/src/main.cpp
+iostream
+-
+shape.h
+/home/mayur/practice/inheritance/example1/src/shape.h
+squere.h
+/home/mayur/practice/inheritance/example1/src/squere.h
+
+/home/mayur/practice/inheritance/example1/src/shape.cpp
+shape.h
+/home/mayur/practice/inheritance/example1/src/shape.h
+
+/home/mayur/practice/inheritance/example1/src/squere.cpp
+iostream
+-
+shape.h
+/home/mayur/practice/inheritance/example1/src/shape.h
+squere.h
+/home/mayur/practice/inheritance/example1/src/squere.h
+

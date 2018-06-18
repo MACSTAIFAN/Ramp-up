@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mayur/practice/thread/example3/inc/timeexample.cpp
+iostream
+-
+iomanip
+-
+thread
+-
+chrono
+-
+ctime
+-
+map
+-
+

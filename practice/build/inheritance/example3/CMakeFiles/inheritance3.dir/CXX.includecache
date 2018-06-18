@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inheritance/example3/inc/bill.h
+pharmacy.h
+../inheritance/example3/inc/pharmacy.h
+
+../inheritance/example3/inc/pharmacy.h
+string
+-
+
+/home/mayur/practice/inheritance/example3/src/bill.cpp
+iostream
+-
+pharmacy.h
+/home/mayur/practice/inheritance/example3/src/pharmacy.h
+bill.h
+/home/mayur/practice/inheritance/example3/src/bill.h
+
+/home/mayur/practice/inheritance/example3/src/main.cpp
+iostream
+-
+pharmacy.h
+/home/mayur/practice/inheritance/example3/src/pharmacy.h
+bill.h
+/home/mayur/practice/inheritance/example3/src/bill.h
+
+/home/mayur/practice/inheritance/example3/src/pharmacy.cpp
+pharmacy.h
+/home/mayur/practice/inheritance/example3/src/pharmacy.h
+string
+-
+

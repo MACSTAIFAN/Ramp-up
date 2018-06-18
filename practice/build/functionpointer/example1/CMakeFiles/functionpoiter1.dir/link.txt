@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/functionpoiter1.dir/inc/fptr1.cpp.o  -o ../../bin/functionpoiter1 -rdynamic 

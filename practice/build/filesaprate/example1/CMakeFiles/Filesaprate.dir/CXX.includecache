@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../filesaprate/example1/inc/Point.h
+
+../filesaprate/example1/inc/Rectangle.h
+Point.h
+../filesaprate/example1/inc/Point.h
+
+/home/mayur/practice/filesaprate/example1/src/Point.cpp
+Point.h
+/home/mayur/practice/filesaprate/example1/src/Point.h
+
+/home/mayur/practice/filesaprate/example1/src/Rectangle.cpp
+Rectangle.h
+/home/mayur/practice/filesaprate/example1/src/Rectangle.h
+
+/home/mayur/practice/filesaprate/example1/src/main.cpp
+iostream
+-
+Point.h
+/home/mayur/practice/filesaprate/example1/src/Point.h
+Rectangle.h
+/home/mayur/practice/filesaprate/example1/src/Rectangle.h
+

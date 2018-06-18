@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/inheritance2.dir/src/engine.cpp.o CMakeFiles/inheritance2.dir/src/car.cpp.o CMakeFiles/inheritance2.dir/src/main.cpp.o CMakeFiles/inheritance2.dir/src/company.cpp.o  -o ../../bin/inheritance2 -rdynamic 

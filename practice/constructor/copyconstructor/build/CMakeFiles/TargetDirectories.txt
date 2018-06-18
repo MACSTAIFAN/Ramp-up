@@ -1,0 +1,3 @@
+/home/mayur/practice/constructor/copyconstructor/build/CMakeFiles/edit_cache.dir
+/home/mayur/practice/constructor/copyconstructor/build/CMakeFiles/rebuild_cache.dir
+/home/mayur/practice/constructor/copyconstructor/build/CMakeFiles/CopyConstructor.dir

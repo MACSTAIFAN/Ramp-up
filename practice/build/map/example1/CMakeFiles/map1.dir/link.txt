@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/map1.dir/inc/map1.cpp.o  -o ../../bin/map1 -rdynamic 

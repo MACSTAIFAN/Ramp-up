@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/classes.dir/inc/basicexample.cpp.o  -o ../../../bin/classes -rdynamic 
