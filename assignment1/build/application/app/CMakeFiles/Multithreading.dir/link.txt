@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/Multithreading.dir/src/main.cpp.o CMakeFiles/Multithreading.dir/src/childthread.cpp.o CMakeFiles/Multithreading.dir/src/mainthread.cpp.o  -o ../../bin/Multithreading -rdynamic -lpthread /usr/local/lib/libUnitTest++.a 

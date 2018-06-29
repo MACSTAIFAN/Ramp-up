@@ -1,0 +1,8 @@
+/home/mayur/projects/assignment1/build/CMakeFiles/edit_cache.dir
+/home/mayur/projects/assignment1/build/CMakeFiles/rebuild_cache.dir
+/home/mayur/projects/assignment1/build/application/CMakeFiles/edit_cache.dir
+/home/mayur/projects/assignment1/build/application/CMakeFiles/rebuild_cache.dir
+/home/mayur/projects/assignment1/build/application/app/CMakeFiles/edit_cache.dir
+/home/mayur/projects/assignment1/build/application/app/CMakeFiles/rebuild_cache.dir
+/home/mayur/projects/assignment1/build/application/app/CMakeFiles/Test.dir
+/home/mayur/projects/assignment1/build/application/app/CMakeFiles/Multithreading.dir

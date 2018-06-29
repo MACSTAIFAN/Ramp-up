@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/Test.dir/src/test.cpp.o CMakeFiles/Test.dir/src/childthread.cpp.o CMakeFiles/Test.dir/src/mainthread.cpp.o  -o ../../bin/Test -rdynamic -lpthread /usr/local/lib/libUnitTest++.a 
