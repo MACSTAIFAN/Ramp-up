@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(sharedpointer)
-set(PROJECT_NAME sharedpointer)
+project(sharedpointer1)
+set(PROJECT_NAME sharedpointer1)
 
 set(CMAKE_CXX_FLAGS "-std=gnu++11")
 
@@ -12,7 +12,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../../bin)
 
 
 include_directories(inc)
-file(GLOB HEADERS "inc/*.h")
+file(GLOB HEADERS "inc/*.cpp")
 file(GLOB SOURCES "inc/*.cpp")
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})

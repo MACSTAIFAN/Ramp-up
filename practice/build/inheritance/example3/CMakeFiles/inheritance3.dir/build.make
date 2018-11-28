@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 # Include any dependencies generated for this target.
 include inheritance/example3/CMakeFiles/inheritance3.dir/depend.make
@@ -57,42 +57,18 @@ include inheritance/example3/CMakeFiles/inheritance3.dir/progress.make
 # Include the compile flags for this target's objects.
 include inheritance/example3/CMakeFiles/inheritance3.dir/flags.make
 
-inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o: inheritance/example3/CMakeFiles/inheritance3.dir/flags.make
-inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o: ../inheritance/example3/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/inheritance3.dir/src/main.cpp.o -c /home/mayur/practice/inheritance/example3/src/main.cpp
-
-inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/inheritance3.dir/src/main.cpp.i"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mayur/practice/inheritance/example3/src/main.cpp > CMakeFiles/inheritance3.dir/src/main.cpp.i
-
-inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/inheritance3.dir/src/main.cpp.s"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mayur/practice/inheritance/example3/src/main.cpp -o CMakeFiles/inheritance3.dir/src/main.cpp.s
-
-inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires:
-
-.PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires
-
-inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires
-	$(MAKE) -f inheritance/example3/CMakeFiles/inheritance3.dir/build.make inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides.build
-.PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides
-
-inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides.build: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o
-
-
 inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o: inheritance/example3/CMakeFiles/inheritance3.dir/flags.make
 inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o: ../inheritance/example3/src/pharmacy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o -c /home/mayur/practice/inheritance/example3/src/pharmacy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o"
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o -c /home/sp49377/practice/inheritance/example3/src/pharmacy.cpp
 
 inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/inheritance3.dir/src/pharmacy.cpp.i"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mayur/practice/inheritance/example3/src/pharmacy.cpp > CMakeFiles/inheritance3.dir/src/pharmacy.cpp.i
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp49377/practice/inheritance/example3/src/pharmacy.cpp > CMakeFiles/inheritance3.dir/src/pharmacy.cpp.i
 
 inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/inheritance3.dir/src/pharmacy.cpp.s"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mayur/practice/inheritance/example3/src/pharmacy.cpp -o CMakeFiles/inheritance3.dir/src/pharmacy.cpp.s
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp49377/practice/inheritance/example3/src/pharmacy.cpp -o CMakeFiles/inheritance3.dir/src/pharmacy.cpp.s
 
 inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o.requires:
 
@@ -105,18 +81,42 @@ inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o.provides: in
 inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o.provides.build: inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o
 
 
+inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o: inheritance/example3/CMakeFiles/inheritance3.dir/flags.make
+inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o: ../inheritance/example3/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o"
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/inheritance3.dir/src/main.cpp.o -c /home/sp49377/practice/inheritance/example3/src/main.cpp
+
+inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/inheritance3.dir/src/main.cpp.i"
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp49377/practice/inheritance/example3/src/main.cpp > CMakeFiles/inheritance3.dir/src/main.cpp.i
+
+inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/inheritance3.dir/src/main.cpp.s"
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp49377/practice/inheritance/example3/src/main.cpp -o CMakeFiles/inheritance3.dir/src/main.cpp.s
+
+inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires:
+
+.PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires
+
+inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires
+	$(MAKE) -f inheritance/example3/CMakeFiles/inheritance3.dir/build.make inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides.build
+.PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides
+
+inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.provides.build: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o
+
+
 inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o: inheritance/example3/CMakeFiles/inheritance3.dir/flags.make
 inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o: ../inheritance/example3/src/bill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/inheritance3.dir/src/bill.cpp.o -c /home/mayur/practice/inheritance/example3/src/bill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o"
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/inheritance3.dir/src/bill.cpp.o -c /home/sp49377/practice/inheritance/example3/src/bill.cpp
 
 inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/inheritance3.dir/src/bill.cpp.i"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mayur/practice/inheritance/example3/src/bill.cpp > CMakeFiles/inheritance3.dir/src/bill.cpp.i
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp49377/practice/inheritance/example3/src/bill.cpp > CMakeFiles/inheritance3.dir/src/bill.cpp.i
 
 inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/inheritance3.dir/src/bill.cpp.s"
-	cd /home/mayur/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mayur/practice/inheritance/example3/src/bill.cpp -o CMakeFiles/inheritance3.dir/src/bill.cpp.s
+	cd /home/sp49377/practice/build/inheritance/example3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp49377/practice/inheritance/example3/src/bill.cpp -o CMakeFiles/inheritance3.dir/src/bill.cpp.s
 
 inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o.requires:
 
@@ -131,37 +131,37 @@ inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o.provides.build: 
 
 # Object files for target inheritance3
 inheritance3_OBJECTS = \
-"CMakeFiles/inheritance3.dir/src/main.cpp.o" \
 "CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o" \
+"CMakeFiles/inheritance3.dir/src/main.cpp.o" \
 "CMakeFiles/inheritance3.dir/src/bill.cpp.o"
 
 # External object files for target inheritance3
 inheritance3_EXTERNAL_OBJECTS =
 
-bin/inheritance3: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o
 bin/inheritance3: inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o
+bin/inheritance3: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o
 bin/inheritance3: inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o
 bin/inheritance3: inheritance/example3/CMakeFiles/inheritance3.dir/build.make
 bin/inheritance3: inheritance/example3/CMakeFiles/inheritance3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../bin/inheritance3"
-	cd /home/mayur/practice/build/inheritance/example3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/inheritance3.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../bin/inheritance3"
+	cd /home/sp49377/practice/build/inheritance/example3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/inheritance3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 inheritance/example3/CMakeFiles/inheritance3.dir/build: bin/inheritance3
 
 .PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/build
 
-inheritance/example3/CMakeFiles/inheritance3.dir/requires: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires
 inheritance/example3/CMakeFiles/inheritance3.dir/requires: inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o.requires
+inheritance/example3/CMakeFiles/inheritance3.dir/requires: inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o.requires
 inheritance/example3/CMakeFiles/inheritance3.dir/requires: inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o.requires
 
 .PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/requires
 
 inheritance/example3/CMakeFiles/inheritance3.dir/clean:
-	cd /home/mayur/practice/build/inheritance/example3 && $(CMAKE_COMMAND) -P CMakeFiles/inheritance3.dir/cmake_clean.cmake
+	cd /home/sp49377/practice/build/inheritance/example3 && $(CMAKE_COMMAND) -P CMakeFiles/inheritance3.dir/cmake_clean.cmake
 .PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/clean
 
 inheritance/example3/CMakeFiles/inheritance3.dir/depend:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mayur/practice /home/mayur/practice/inheritance/example3 /home/mayur/practice/build /home/mayur/practice/build/inheritance/example3 /home/mayur/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sp49377/practice /home/sp49377/practice/inheritance/example3 /home/sp49377/practice/build /home/sp49377/practice/build/inheritance/example3 /home/sp49377/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : inheritance/example3/CMakeFiles/inheritance3.dir/depend
 

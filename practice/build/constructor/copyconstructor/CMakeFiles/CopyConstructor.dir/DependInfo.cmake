@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/constructor/copyconstructor/src/cpconst.cpp" "/home/mayur/practice/build/constructor/copyconstructor/CMakeFiles/CopyConstructor.dir/src/cpconst.cpp.o"
-  "/home/mayur/practice/constructor/copyconstructor/src/main.cpp" "/home/mayur/practice/build/constructor/copyconstructor/CMakeFiles/CopyConstructor.dir/src/main.cpp.o"
+  "/home/sp49377/practice/constructor/copyconstructor/src/cpconst.cpp" "/home/sp49377/practice/build/constructor/copyconstructor/CMakeFiles/CopyConstructor.dir/src/cpconst.cpp.o"
+  "/home/sp49377/practice/constructor/copyconstructor/src/main.cpp" "/home/sp49377/practice/build/constructor/copyconstructor/CMakeFiles/CopyConstructor.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

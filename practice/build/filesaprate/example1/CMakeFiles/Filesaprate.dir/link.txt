@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/Filesaprate.dir/src/main.cpp.o CMakeFiles/Filesaprate.dir/src/Rectangle.cpp.o CMakeFiles/Filesaprate.dir/src/Point.cpp.o  -o ../../bin/Filesaprate -rdynamic 
+/usr/bin/c++   -std=gnu++11   CMakeFiles/Filesaprate.dir/src/Point.cpp.o CMakeFiles/Filesaprate.dir/src/main.cpp.o CMakeFiles/Filesaprate.dir/src/Rectangle.cpp.o  -o ../../bin/Filesaprate -rdynamic 

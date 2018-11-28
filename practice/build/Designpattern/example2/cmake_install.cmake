@@ -1,4 +1,4 @@
-# Install script for directory: /home/mayur/practice/Designpattern/example2
+# Install script for directory: /home/sp49377/practice/Designpattern/example2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/inheritance1.dir/src/squere.cpp.o"
   "CMakeFiles/inheritance1.dir/src/main.cpp.o"
   "CMakeFiles/inheritance1.dir/src/shape.cpp.o"
+  "CMakeFiles/inheritance1.dir/src/squere.cpp.o"
   "../../bin/inheritance1.pdb"
   "../../bin/inheritance1"
 )

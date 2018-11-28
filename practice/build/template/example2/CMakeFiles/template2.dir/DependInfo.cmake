@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/template/example2/inc/template2.cpp" "/home/mayur/practice/build/template/example2/CMakeFiles/template2.dir/inc/template2.cpp.o"
+  "/home/sp49377/practice/template/example2/inc/template2.cpp" "/home/sp49377/practice/build/template/example2/CMakeFiles/template2.dir/inc/template2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

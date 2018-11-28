@@ -14,25 +14,25 @@ pharmacy.h
 string
 -
 
-/home/mayur/practice/inheritance/example3/src/bill.cpp
+/home/sp49377/practice/inheritance/example3/src/bill.cpp
 iostream
 -
 pharmacy.h
-/home/mayur/practice/inheritance/example3/src/pharmacy.h
+/home/sp49377/practice/inheritance/example3/src/pharmacy.h
 bill.h
-/home/mayur/practice/inheritance/example3/src/bill.h
+/home/sp49377/practice/inheritance/example3/src/bill.h
 
-/home/mayur/practice/inheritance/example3/src/main.cpp
+/home/sp49377/practice/inheritance/example3/src/main.cpp
 iostream
 -
 pharmacy.h
-/home/mayur/practice/inheritance/example3/src/pharmacy.h
+/home/sp49377/practice/inheritance/example3/src/pharmacy.h
 bill.h
-/home/mayur/practice/inheritance/example3/src/bill.h
+/home/sp49377/practice/inheritance/example3/src/bill.h
 
-/home/mayur/practice/inheritance/example3/src/pharmacy.cpp
+/home/sp49377/practice/inheritance/example3/src/pharmacy.cpp
 pharmacy.h
-/home/mayur/practice/inheritance/example3/src/pharmacy.h
+/home/sp49377/practice/inheritance/example3/src/pharmacy.h
 string
 -
 

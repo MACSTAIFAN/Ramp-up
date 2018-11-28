@@ -6,5 +6,5 @@ CXX_FLAGS = -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mayur/practice/functionpointer/example1/inc 
+CXX_INCLUDES = -I/home/sp49377/practice/functionpointer/example1/inc 
 

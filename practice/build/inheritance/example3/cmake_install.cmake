@@ -1,4 +1,4 @@
-# Install script for directory: /home/mayur/practice/inheritance/example3
+# Install script for directory: /home/sp49377/practice/inheritance/example3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

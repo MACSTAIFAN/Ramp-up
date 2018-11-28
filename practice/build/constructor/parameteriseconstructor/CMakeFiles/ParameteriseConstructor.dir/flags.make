@@ -6,5 +6,5 @@ CXX_FLAGS = -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mayur/practice/constructor/parameteriseconstructor/inc 
+CXX_INCLUDES = -I/home/sp49377/practice/constructor/parameteriseconstructor/inc 
 

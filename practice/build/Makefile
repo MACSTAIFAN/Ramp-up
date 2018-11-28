@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles /home/mayur/practice/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles /home/sp49377/practice/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -358,17 +358,69 @@ map3/fast:
 .PHONY : map3/fast
 
 #=============================================================================
-# Target rules for targets named sharedpointer
+# Target rules for targets named sharedpointer1
 
 # Build rule for target.
-sharedpointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sharedpointer
-.PHONY : sharedpointer
+sharedpointer1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sharedpointer1
+.PHONY : sharedpointer1
 
 # fast build rule for target.
-sharedpointer/fast:
-	$(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer.dir/build
-.PHONY : sharedpointer/fast
+sharedpointer1/fast:
+	$(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer1.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer1.dir/build
+.PHONY : sharedpointer1/fast
+
+#=============================================================================
+# Target rules for targets named sharedpointer2
+
+# Build rule for target.
+sharedpointer2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sharedpointer2
+.PHONY : sharedpointer2
+
+# fast build rule for target.
+sharedpointer2/fast:
+	$(MAKE) -f sharedpointer/example2/CMakeFiles/sharedpointer2.dir/build.make sharedpointer/example2/CMakeFiles/sharedpointer2.dir/build
+.PHONY : sharedpointer2/fast
+
+#=============================================================================
+# Target rules for targets named sharedpointer3
+
+# Build rule for target.
+sharedpointer3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sharedpointer3
+.PHONY : sharedpointer3
+
+# fast build rule for target.
+sharedpointer3/fast:
+	$(MAKE) -f sharedpointer/example3/CMakeFiles/sharedpointer3.dir/build.make sharedpointer/example3/CMakeFiles/sharedpointer3.dir/build
+.PHONY : sharedpointer3/fast
+
+#=============================================================================
+# Target rules for targets named sharedpointer4
+
+# Build rule for target.
+sharedpointer4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sharedpointer4
+.PHONY : sharedpointer4
+
+# fast build rule for target.
+sharedpointer4/fast:
+	$(MAKE) -f sharedpointer/example4/CMakeFiles/sharedpointer4.dir/build.make sharedpointer/example4/CMakeFiles/sharedpointer4.dir/build
+.PHONY : sharedpointer4/fast
+
+#=============================================================================
+# Target rules for targets named sharedpointer6
+
+# Build rule for target.
+sharedpointer6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sharedpointer6
+.PHONY : sharedpointer6
+
+# fast build rule for target.
+sharedpointer6/fast:
+	$(MAKE) -f sharedpointer/example6/CMakeFiles/sharedpointer6.dir/build.make sharedpointer/example6/CMakeFiles/sharedpointer6.dir/build
+.PHONY : sharedpointer6/fast
 
 #=============================================================================
 # Target rules for targets named template1
@@ -553,17 +605,17 @@ Designpattern2/fast:
 .PHONY : Designpattern2/fast
 
 #=============================================================================
-# Target rules for targets named Designpattern3
+# Target rules for targets named proto
 
 # Build rule for target.
-Designpattern3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Designpattern3
-.PHONY : Designpattern3
+proto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 proto
+.PHONY : proto
 
 # fast build rule for target.
-Designpattern3/fast:
-	$(MAKE) -f Designpattern/example3/CMakeFiles/Designpattern3.dir/build.make Designpattern/example3/CMakeFiles/Designpattern3.dir/build
-.PHONY : Designpattern3/fast
+proto/fast:
+	$(MAKE) -f proto/example/CMakeFiles/proto.dir/build.make proto/example/CMakeFiles/proto.dir/build
+.PHONY : proto/fast
 
 # Help Target
 help:
@@ -592,7 +644,11 @@ help:
 	@echo "... map1"
 	@echo "... map2"
 	@echo "... map3"
-	@echo "... sharedpointer"
+	@echo "... sharedpointer1"
+	@echo "... sharedpointer2"
+	@echo "... sharedpointer3"
+	@echo "... sharedpointer4"
+	@echo "... sharedpointer6"
 	@echo "... template1"
 	@echo "... template2"
 	@echo "... template3"
@@ -607,7 +663,7 @@ help:
 	@echo "... vector4"
 	@echo "... Designpattern1"
 	@echo "... Designpattern2"
-	@echo "... Designpattern3"
+	@echo "... proto"
 .PHONY : help
 
 

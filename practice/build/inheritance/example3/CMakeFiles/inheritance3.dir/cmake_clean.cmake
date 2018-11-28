@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/inheritance3.dir/src/main.cpp.o"
   "CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o"
+  "CMakeFiles/inheritance3.dir/src/main.cpp.o"
   "CMakeFiles/inheritance3.dir/src/bill.cpp.o"
   "../../bin/inheritance3.pdb"
   "../../bin/inheritance3"

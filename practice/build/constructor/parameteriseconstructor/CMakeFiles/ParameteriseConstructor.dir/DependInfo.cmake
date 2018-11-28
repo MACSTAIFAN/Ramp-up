@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/constructor/parameteriseconstructor/src/main.cpp" "/home/mayur/practice/build/constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o"
-  "/home/mayur/practice/constructor/parameteriseconstructor/src/prconst.cpp" "/home/mayur/practice/build/constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o"
+  "/home/sp49377/practice/constructor/parameteriseconstructor/src/main.cpp" "/home/sp49377/practice/build/constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o"
+  "/home/sp49377/practice/constructor/parameteriseconstructor/src/prconst.cpp" "/home/sp49377/practice/build/constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

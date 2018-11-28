@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/inheritance/example3/src/bill.cpp" "/home/mayur/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o"
-  "/home/mayur/practice/inheritance/example3/src/main.cpp" "/home/mayur/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o"
-  "/home/mayur/practice/inheritance/example3/src/pharmacy.cpp" "/home/mayur/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o"
+  "/home/sp49377/practice/inheritance/example3/src/bill.cpp" "/home/sp49377/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/src/bill.cpp.o"
+  "/home/sp49377/practice/inheritance/example3/src/main.cpp" "/home/sp49377/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/src/main.cpp.o"
+  "/home/sp49377/practice/inheritance/example3/src/pharmacy.cpp" "/home/sp49377/practice/build/inheritance/example3/CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

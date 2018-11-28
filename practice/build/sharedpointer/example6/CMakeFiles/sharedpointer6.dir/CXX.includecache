@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sp49377/practice/sharedpointer/example6/inc/semaphore.cpp
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+semaphore.h
+-
+

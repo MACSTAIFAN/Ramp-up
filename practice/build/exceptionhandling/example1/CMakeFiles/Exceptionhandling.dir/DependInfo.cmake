@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/exceptionhandling/example1/inc/exception1.cpp" "/home/mayur/practice/build/exceptionhandling/example1/CMakeFiles/Exceptionhandling.dir/inc/exception1.cpp.o"
+  "/home/sp49377/practice/exceptionhandling/example1/inc/exception1.cpp" "/home/sp49377/practice/build/exceptionhandling/example1/CMakeFiles/Exceptionhandling.dir/inc/exception1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

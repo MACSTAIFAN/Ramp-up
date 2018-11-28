@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/vector/example2/inc/vectoredataio.cpp" "/home/mayur/practice/build/vector/example2/CMakeFiles/vector2.dir/inc/vectoredataio.cpp.o"
+  "/home/sp49377/practice/vector/example2/inc/vectoredataio.cpp" "/home/sp49377/practice/build/vector/example2/CMakeFiles/vector2.dir/inc/vectoredataio.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

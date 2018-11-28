@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mayur/practice/thread/example1/inc/threadbasic.cpp
+/home/sp49377/practice/thread/example1/inc/threadbasic.cpp
 iostream
 -
 thread
-/home/mayur/practice/thread/example1/inc/thread
+/home/sp49377/practice/thread/example1/inc/thread
 

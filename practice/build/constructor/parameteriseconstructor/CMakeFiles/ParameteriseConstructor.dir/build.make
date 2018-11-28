@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 # Include any dependencies generated for this target.
 include constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/depend.make
@@ -59,16 +59,16 @@ include constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.d
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o: constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/flags.make
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o: ../constructor/parameteriseconstructor/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o"
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o -c /home/mayur/practice/constructor/parameteriseconstructor/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o"
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o -c /home/sp49377/practice/constructor/parameteriseconstructor/src/main.cpp
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.i"
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mayur/practice/constructor/parameteriseconstructor/src/main.cpp > CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.i
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp49377/practice/constructor/parameteriseconstructor/src/main.cpp > CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.i
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.s"
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mayur/practice/constructor/parameteriseconstructor/src/main.cpp -o CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.s
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp49377/practice/constructor/parameteriseconstructor/src/main.cpp -o CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.s
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/m
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o: constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/flags.make
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o: ../constructor/parameteriseconstructor/src/prconst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o"
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o -c /home/mayur/practice/constructor/parameteriseconstructor/src/prconst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o"
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o -c /home/sp49377/practice/constructor/parameteriseconstructor/src/prconst.cpp
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.i"
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mayur/practice/constructor/parameteriseconstructor/src/prconst.cpp > CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.i
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp49377/practice/constructor/parameteriseconstructor/src/prconst.cpp > CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.i
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.s"
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mayur/practice/constructor/parameteriseconstructor/src/prconst.cpp -o CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.s
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp49377/practice/constructor/parameteriseconstructor/src/prconst.cpp -o CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.s
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o.requires:
 
@@ -117,8 +117,8 @@ bin/ParameteriseConstructor: constructor/parameteriseconstructor/CMakeFiles/Para
 bin/ParameteriseConstructor: constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/src/prconst.cpp.o
 bin/ParameteriseConstructor: constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/build.make
 bin/ParameteriseConstructor: constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/ParameteriseConstructor"
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ParameteriseConstructor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/ParameteriseConstructor"
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ParameteriseConstructor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/build: bin/ParameteriseConstructor
@@ -131,10 +131,10 @@ constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/requi
 .PHONY : constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/requires
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/clean:
-	cd /home/mayur/practice/build/constructor/parameteriseconstructor && $(CMAKE_COMMAND) -P CMakeFiles/ParameteriseConstructor.dir/cmake_clean.cmake
+	cd /home/sp49377/practice/build/constructor/parameteriseconstructor && $(CMAKE_COMMAND) -P CMakeFiles/ParameteriseConstructor.dir/cmake_clean.cmake
 .PHONY : constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/clean
 
 constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/depend:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mayur/practice /home/mayur/practice/constructor/parameteriseconstructor /home/mayur/practice/build /home/mayur/practice/build/constructor/parameteriseconstructor /home/mayur/practice/build/constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sp49377/practice /home/sp49377/practice/constructor/parameteriseconstructor /home/sp49377/practice/build /home/sp49377/practice/build/constructor/parameteriseconstructor /home/sp49377/practice/build/constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : constructor/parameteriseconstructor/CMakeFiles/ParameteriseConstructor.dir/depend
 

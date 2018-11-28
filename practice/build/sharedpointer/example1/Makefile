@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles /home/mayur/practice/build/sharedpointer/example1/CMakeFiles/progress.marks
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles /home/sp49377/practice/build/sharedpointer/example1/CMakeFiles/progress.marks
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/clean
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,33 +97,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-sharedpointer/example1/CMakeFiles/sharedpointer.dir/rule:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/CMakeFiles/sharedpointer.dir/rule
-.PHONY : sharedpointer/example1/CMakeFiles/sharedpointer.dir/rule
+sharedpointer/example1/CMakeFiles/sharedpointer1.dir/rule:
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 sharedpointer/example1/CMakeFiles/sharedpointer1.dir/rule
+.PHONY : sharedpointer/example1/CMakeFiles/sharedpointer1.dir/rule
 
 # Convenience name for target.
-sharedpointer: sharedpointer/example1/CMakeFiles/sharedpointer.dir/rule
+sharedpointer1: sharedpointer/example1/CMakeFiles/sharedpointer1.dir/rule
 
-.PHONY : sharedpointer
+.PHONY : sharedpointer1
 
 # fast build rule for target.
-sharedpointer/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer.dir/build
-.PHONY : sharedpointer/fast
+sharedpointer1/fast:
+	cd /home/sp49377/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer1.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer1.dir/build
+.PHONY : sharedpointer1/fast
 
 inc/basicsp.o: inc/basicsp.cpp.o
 
@@ -131,7 +131,7 @@ inc/basicsp.o: inc/basicsp.cpp.o
 
 # target to build an object file
 inc/basicsp.cpp.o:
-	cd /home/mayur/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer.dir/inc/basicsp.cpp.o
+	cd /home/sp49377/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer1.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer1.dir/inc/basicsp.cpp.o
 .PHONY : inc/basicsp.cpp.o
 
 inc/basicsp.i: inc/basicsp.cpp.i
@@ -140,7 +140,7 @@ inc/basicsp.i: inc/basicsp.cpp.i
 
 # target to preprocess a source file
 inc/basicsp.cpp.i:
-	cd /home/mayur/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer.dir/inc/basicsp.cpp.i
+	cd /home/sp49377/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer1.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer1.dir/inc/basicsp.cpp.i
 .PHONY : inc/basicsp.cpp.i
 
 inc/basicsp.s: inc/basicsp.cpp.s
@@ -149,7 +149,7 @@ inc/basicsp.s: inc/basicsp.cpp.s
 
 # target to generate assembly for a file
 inc/basicsp.cpp.s:
-	cd /home/mayur/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer.dir/inc/basicsp.cpp.s
+	cd /home/sp49377/practice/build && $(MAKE) -f sharedpointer/example1/CMakeFiles/sharedpointer1.dir/build.make sharedpointer/example1/CMakeFiles/sharedpointer1.dir/inc/basicsp.cpp.s
 .PHONY : inc/basicsp.cpp.s
 
 # Help Target
@@ -158,9 +158,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... sharedpointer"
+	@echo "... edit_cache"
+	@echo "... sharedpointer1"
 	@echo "... inc/basicsp.o"
 	@echo "... inc/basicsp.i"
 	@echo "... inc/basicsp.s"
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

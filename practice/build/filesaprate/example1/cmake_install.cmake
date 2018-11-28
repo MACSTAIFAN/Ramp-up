@@ -1,4 +1,4 @@
-# Install script for directory: /home/mayur/practice/filesaprate/example1
+# Install script for directory: /home/sp49377/practice/filesaprate/example1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/lambdaexpression/example1/inc/basicfunda.cpp" "/home/mayur/practice/build/lambdaexpression/example1/CMakeFiles/lambdaexpression.dir/inc/basicfunda.cpp.o"
+  "/home/sp49377/practice/lambdaexpression/example1/inc/basicfunda.cpp" "/home/sp49377/practice/build/lambdaexpression/example1/CMakeFiles/lambdaexpression.dir/inc/basicfunda.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

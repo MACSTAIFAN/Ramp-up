@@ -1,4 +1,4 @@
-# Install script for directory: /home/mayur/practice/constructor/parameteriseconstructor
+# Install script for directory: /home/sp49377/practice/constructor/parameteriseconstructor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

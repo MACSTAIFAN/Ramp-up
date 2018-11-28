@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles /home/mayur/practice/build/map/example2/CMakeFiles/progress.marks
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles /home/sp49377/practice/build/map/example2/CMakeFiles/progress.marks
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/clean
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 map/example2/CMakeFiles/map2.dir/rule:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/CMakeFiles/map2.dir/rule
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 map/example2/CMakeFiles/map2.dir/rule
 .PHONY : map/example2/CMakeFiles/map2.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ map2: map/example2/CMakeFiles/map2.dir/rule
 
 # fast build rule for target.
 map2/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/build
+	cd /home/sp49377/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/build
 .PHONY : map2/fast
 
 inc/mpoperator.o: inc/mpoperator.cpp.o
@@ -131,7 +131,7 @@ inc/mpoperator.o: inc/mpoperator.cpp.o
 
 # target to build an object file
 inc/mpoperator.cpp.o:
-	cd /home/mayur/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.o
+	cd /home/sp49377/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.o
 .PHONY : inc/mpoperator.cpp.o
 
 inc/mpoperator.i: inc/mpoperator.cpp.i
@@ -140,7 +140,7 @@ inc/mpoperator.i: inc/mpoperator.cpp.i
 
 # target to preprocess a source file
 inc/mpoperator.cpp.i:
-	cd /home/mayur/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.i
+	cd /home/sp49377/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.i
 .PHONY : inc/mpoperator.cpp.i
 
 inc/mpoperator.s: inc/mpoperator.cpp.s
@@ -149,7 +149,7 @@ inc/mpoperator.s: inc/mpoperator.cpp.s
 
 # target to generate assembly for a file
 inc/mpoperator.cpp.s:
-	cd /home/mayur/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.s
+	cd /home/sp49377/practice/build && $(MAKE) -f map/example2/CMakeFiles/map2.dir/build.make map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.s
 .PHONY : inc/mpoperator.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

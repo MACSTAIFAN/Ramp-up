@@ -4,11 +4,11 @@
 inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.o
  ../inheritance/example1/inc/shape.h
  ../inheritance/example1/inc/squere.h
- /home/mayur/practice/inheritance/example1/src/main.cpp
+ /home/sp49377/practice/inheritance/example1/src/main.cpp
 inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.o
  ../inheritance/example1/inc/shape.h
- /home/mayur/practice/inheritance/example1/src/shape.cpp
+ /home/sp49377/practice/inheritance/example1/src/shape.cpp
 inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.o
  ../inheritance/example1/inc/shape.h
  ../inheritance/example1/inc/squere.h
- /home/mayur/practice/inheritance/example1/src/squere.cpp
+ /home/sp49377/practice/inheritance/example1/src/squere.cpp

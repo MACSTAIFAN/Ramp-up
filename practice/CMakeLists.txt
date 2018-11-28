@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.0)
 
 
 
-set(CMAKE_CXX_FLAGS "-std=gnu++11")
+set(CMAKE_CXX_FLAGS "-std=c++11")
+
 #constructor
 add_subdirectory(constructor/copyconstructor)
 add_subdirectory(constructor/defaultconstructor)
@@ -34,6 +35,11 @@ add_subdirectory(map/example2)
 add_subdirectory(map/example3)
 #sharedpointer
 add_subdirectory(sharedpointer/example1)
+add_subdirectory(sharedpointer/example2)
+add_subdirectory(sharedpointer/example3)
+add_subdirectory(sharedpointer/example4)
+#add_subdirectory(sharedpointer/example5)
+add_subdirectory(sharedpointer/example6)
 #template
 add_subdirectory(template/example1)
 add_subdirectory(template/example2)
@@ -53,5 +59,8 @@ add_subdirectory(vector/example4)
 #designpattern
 add_subdirectory(Designpattern/example1)
 add_subdirectory(Designpattern/example2)
-add_subdirectory(Designpattern/example3)
+#add_subdirectory(Designpattern/example3)
+#proto
+add_subdirectory(proto/example)
+
 

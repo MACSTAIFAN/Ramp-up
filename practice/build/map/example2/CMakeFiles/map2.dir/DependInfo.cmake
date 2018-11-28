@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/map/example2/inc/mpoperator.cpp" "/home/mayur/practice/build/map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.o"
+  "/home/sp49377/practice/map/example2/inc/mpoperator.cpp" "/home/sp49377/practice/build/map/example2/CMakeFiles/map2.dir/inc/mpoperator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

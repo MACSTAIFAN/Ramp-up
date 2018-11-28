@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sp49377/practice/sharedpointer/example2/inc/prog.cpp
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/wait.h
+-
+sys/mman.h
+-
+pthread.h
+-
+

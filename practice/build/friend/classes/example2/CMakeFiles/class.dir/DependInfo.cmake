@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/friend/classes/example2/inc/friendfunc.cpp" "/home/mayur/practice/build/friend/classes/example2/CMakeFiles/class.dir/inc/friendfunc.cpp.o"
+  "/home/sp49377/practice/friend/classes/example2/inc/friendfunc.cpp" "/home/sp49377/practice/build/friend/classes/example2/CMakeFiles/class.dir/inc/friendfunc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

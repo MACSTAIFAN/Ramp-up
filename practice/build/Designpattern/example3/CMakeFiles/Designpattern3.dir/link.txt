@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/Designpattern3.dir/inc/main.cpp.o  -o ../../bin/Designpattern3 -rdynamic -lmemory -lstdexcept 

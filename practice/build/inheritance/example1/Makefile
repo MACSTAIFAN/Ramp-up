@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles /home/mayur/practice/build/inheritance/example1/CMakeFiles/progress.marks
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles /home/sp49377/practice/build/inheritance/example1/CMakeFiles/progress.marks
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/clean
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 inheritance/example1/CMakeFiles/inheritance1.dir/rule:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/CMakeFiles/inheritance1.dir/rule
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 inheritance/example1/CMakeFiles/inheritance1.dir/rule
 .PHONY : inheritance/example1/CMakeFiles/inheritance1.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ inheritance1: inheritance/example1/CMakeFiles/inheritance1.dir/rule
 
 # fast build rule for target.
 inheritance1/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/build
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/build
 .PHONY : inheritance1/fast
 
 src/main.o: src/main.cpp.o
@@ -131,7 +131,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.o
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -140,7 +140,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.i
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -149,7 +149,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.s
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/shape.o: src/shape.cpp.o
@@ -158,7 +158,7 @@ src/shape.o: src/shape.cpp.o
 
 # target to build an object file
 src/shape.cpp.o:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.o
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.o
 .PHONY : src/shape.cpp.o
 
 src/shape.i: src/shape.cpp.i
@@ -167,7 +167,7 @@ src/shape.i: src/shape.cpp.i
 
 # target to preprocess a source file
 src/shape.cpp.i:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.i
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.i
 .PHONY : src/shape.cpp.i
 
 src/shape.s: src/shape.cpp.s
@@ -176,7 +176,7 @@ src/shape.s: src/shape.cpp.s
 
 # target to generate assembly for a file
 src/shape.cpp.s:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.s
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.s
 .PHONY : src/shape.cpp.s
 
 src/squere.o: src/squere.cpp.o
@@ -185,7 +185,7 @@ src/squere.o: src/squere.cpp.o
 
 # target to build an object file
 src/squere.cpp.o:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.o
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.o
 .PHONY : src/squere.cpp.o
 
 src/squere.i: src/squere.cpp.i
@@ -194,7 +194,7 @@ src/squere.i: src/squere.cpp.i
 
 # target to preprocess a source file
 src/squere.cpp.i:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.i
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.i
 .PHONY : src/squere.cpp.i
 
 src/squere.s: src/squere.cpp.s
@@ -203,7 +203,7 @@ src/squere.s: src/squere.cpp.s
 
 # target to generate assembly for a file
 src/squere.cpp.s:
-	cd /home/mayur/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.s
+	cd /home/sp49377/practice/build && $(MAKE) -f inheritance/example1/CMakeFiles/inheritance1.dir/build.make inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.s
 .PHONY : src/squere.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

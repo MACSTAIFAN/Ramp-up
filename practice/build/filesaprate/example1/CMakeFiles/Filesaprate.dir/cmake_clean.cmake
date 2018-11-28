@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Filesaprate.dir/src/Point.cpp.o"
   "CMakeFiles/Filesaprate.dir/src/main.cpp.o"
   "CMakeFiles/Filesaprate.dir/src/Rectangle.cpp.o"
-  "CMakeFiles/Filesaprate.dir/src/Point.cpp.o"
   "../../bin/Filesaprate.pdb"
   "../../bin/Filesaprate"
 )

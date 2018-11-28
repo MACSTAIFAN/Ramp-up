@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/friend/functions/example3/inc/simpleex.cpp" "/home/mayur/practice/build/friend/functions/example3/CMakeFiles/functions.dir/inc/simpleex.cpp.o"
+  "/home/sp49377/practice/friend/functions/example3/inc/simpleex.cpp" "/home/sp49377/practice/build/friend/functions/example3/CMakeFiles/functions.dir/inc/simpleex.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

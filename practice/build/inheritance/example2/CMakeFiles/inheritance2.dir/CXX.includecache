@@ -18,31 +18,31 @@ engine.h
 
 ../inheritance/example2/inc/engine.h
 
-/home/mayur/practice/inheritance/example2/src/car.cpp
+/home/sp49377/practice/inheritance/example2/src/car.cpp
 car.h
-/home/mayur/practice/inheritance/example2/src/car.h
+/home/sp49377/practice/inheritance/example2/src/car.h
 
-/home/mayur/practice/inheritance/example2/src/company.cpp
+/home/sp49377/practice/inheritance/example2/src/company.cpp
 iostream
 -
 company.h
-/home/mayur/practice/inheritance/example2/src/company.h
+/home/sp49377/practice/inheritance/example2/src/company.h
 car.h
-/home/mayur/practice/inheritance/example2/src/car.h
+/home/sp49377/practice/inheritance/example2/src/car.h
 engine.h
-/home/mayur/practice/inheritance/example2/src/engine.h
+/home/sp49377/practice/inheritance/example2/src/engine.h
 
-/home/mayur/practice/inheritance/example2/src/engine.cpp
+/home/sp49377/practice/inheritance/example2/src/engine.cpp
 engine.h
-/home/mayur/practice/inheritance/example2/src/engine.h
+/home/sp49377/practice/inheritance/example2/src/engine.h
 
-/home/mayur/practice/inheritance/example2/src/main.cpp
+/home/sp49377/practice/inheritance/example2/src/main.cpp
 iostream
 -
 company.h
-/home/mayur/practice/inheritance/example2/src/company.h
+/home/sp49377/practice/inheritance/example2/src/company.h
 car.h
-/home/mayur/practice/inheritance/example2/src/car.h
+/home/sp49377/practice/inheritance/example2/src/car.h
 engine.h
-/home/mayur/practice/inheritance/example2/src/engine.h
+/home/sp49377/practice/inheritance/example2/src/engine.h
 

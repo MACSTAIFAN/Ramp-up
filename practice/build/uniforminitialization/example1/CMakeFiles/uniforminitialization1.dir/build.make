@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 # Include any dependencies generated for this target.
 include uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/depend.make
@@ -59,16 +59,16 @@ include uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/fla
 
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o: uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/flags.make
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o: ../uniforminitialization/example1/inc/arraymemberinitialization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o"
-	cd /home/mayur/practice/build/uniforminitialization/example1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o -c /home/mayur/practice/uniforminitialization/example1/inc/arraymemberinitialization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o"
+	cd /home/sp49377/practice/build/uniforminitialization/example1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o -c /home/sp49377/practice/uniforminitialization/example1/inc/arraymemberinitialization.cpp
 
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.i"
-	cd /home/mayur/practice/build/uniforminitialization/example1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mayur/practice/uniforminitialization/example1/inc/arraymemberinitialization.cpp > CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.i
+	cd /home/sp49377/practice/build/uniforminitialization/example1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp49377/practice/uniforminitialization/example1/inc/arraymemberinitialization.cpp > CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.i
 
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.s"
-	cd /home/mayur/practice/build/uniforminitialization/example1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mayur/practice/uniforminitialization/example1/inc/arraymemberinitialization.cpp -o CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.s
+	cd /home/sp49377/practice/build/uniforminitialization/example1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp49377/practice/uniforminitialization/example1/inc/arraymemberinitialization.cpp -o CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.s
 
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o.requires:
 
@@ -91,8 +91,8 @@ uniforminitialization1_EXTERNAL_OBJECTS =
 bin/uniforminitialization1: uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/inc/arraymemberinitialization.cpp.o
 bin/uniforminitialization1: uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/build.make
 bin/uniforminitialization1: uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mayur/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/uniforminitialization1"
-	cd /home/mayur/practice/build/uniforminitialization/example1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uniforminitialization1.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sp49377/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/uniforminitialization1"
+	cd /home/sp49377/practice/build/uniforminitialization/example1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uniforminitialization1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/build: bin/uniforminitialization1
@@ -104,10 +104,10 @@ uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/requires: u
 .PHONY : uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/requires
 
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/clean:
-	cd /home/mayur/practice/build/uniforminitialization/example1 && $(CMAKE_COMMAND) -P CMakeFiles/uniforminitialization1.dir/cmake_clean.cmake
+	cd /home/sp49377/practice/build/uniforminitialization/example1 && $(CMAKE_COMMAND) -P CMakeFiles/uniforminitialization1.dir/cmake_clean.cmake
 .PHONY : uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/clean
 
 uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/depend:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mayur/practice /home/mayur/practice/uniforminitialization/example1 /home/mayur/practice/build /home/mayur/practice/build/uniforminitialization/example1 /home/mayur/practice/build/uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sp49377/practice /home/sp49377/practice/uniforminitialization/example1 /home/sp49377/practice/build /home/sp49377/practice/build/uniforminitialization/example1 /home/sp49377/practice/build/uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uniforminitialization/example1/CMakeFiles/uniforminitialization1.dir/depend
 

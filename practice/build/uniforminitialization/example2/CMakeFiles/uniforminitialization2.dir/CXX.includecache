@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mayur/practice/uniforminitialization/example2/inc/datamember.cpp
+/home/sp49377/practice/uniforminitialization/example2/inc/datamember.cpp
 iostream
 -
 vector

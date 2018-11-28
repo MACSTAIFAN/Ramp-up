@@ -1,4 +1,4 @@
-# Install script for directory: /home/mayur/practice/constructor/copyconstructor
+# Install script for directory: /home/sp49377/practice/constructor/copyconstructor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

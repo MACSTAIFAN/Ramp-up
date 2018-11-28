@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mayur/practice/thread/example2/inc/basicofthrd.cpp
+/home/sp49377/practice/thread/example2/inc/basicofthrd.cpp
 iostream
 -
 thread

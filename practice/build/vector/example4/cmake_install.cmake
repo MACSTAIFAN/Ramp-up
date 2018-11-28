@@ -1,4 +1,4 @@
-# Install script for directory: /home/mayur/practice/vector/example4
+# Install script for directory: /home/sp49377/practice/vector/example4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

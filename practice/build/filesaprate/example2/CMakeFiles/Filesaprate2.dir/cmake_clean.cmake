@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Filesaprate2.dir/src/parant.cpp.o"
   "CMakeFiles/Filesaprate2.dir/src/main.cpp.o"
+  "CMakeFiles/Filesaprate2.dir/src/parant.cpp.o"
   "CMakeFiles/Filesaprate2.dir/src/child.cpp.o"
   "../../bin/Filesaprate2.pdb"
   "../../bin/Filesaprate2"

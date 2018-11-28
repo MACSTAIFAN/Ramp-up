@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/EXPREMENTS/composition/inc/composition.cpp" "/home/mayur/practice/build/EXPREMENTS/composition/CMakeFiles/Exprements.dir/inc/composition.cpp.o"
+  "/home/sp49377/practice/EXPREMENTS/composition/inc/composition.cpp" "/home/sp49377/practice/build/EXPREMENTS/composition/CMakeFiles/Exprements.dir/inc/composition.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

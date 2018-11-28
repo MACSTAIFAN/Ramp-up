@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/functionpointer/example1/inc/fptr1.cpp" "/home/mayur/practice/build/functionpointer/example1/CMakeFiles/functionpoiter1.dir/inc/fptr1.cpp.o"
+  "/home/sp49377/practice/functionpointer/example1/inc/fptr1.cpp" "/home/sp49377/practice/build/functionpointer/example1/CMakeFiles/functionpoiter1.dir/inc/fptr1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

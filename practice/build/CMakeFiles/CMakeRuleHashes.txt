@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+a8dc9677e2e98c87a09dcf1f5c5f2eb7 proto/example/exp.pb.cc

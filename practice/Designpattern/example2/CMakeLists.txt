@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.0)
 project(Designpattern2)
 set(PROJECT_NAME Designpattern2)
 
-set(CMAKE_CXX_FLAGS "-std=gnu++11")
+set(CMAKE_CXX_FLAGS "-std=c++11")
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../../bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../../bin)

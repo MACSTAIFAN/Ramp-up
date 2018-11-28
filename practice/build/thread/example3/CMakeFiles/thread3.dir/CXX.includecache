@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mayur/practice/thread/example3/inc/timeexample.cpp
+/home/sp49377/practice/thread/example3/inc/timeexample.cpp
 iostream
 -
 iomanip

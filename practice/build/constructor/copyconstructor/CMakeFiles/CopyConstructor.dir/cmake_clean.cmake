@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CopyConstructor.dir/src/main.cpp.o"
   "CMakeFiles/CopyConstructor.dir/src/cpconst.cpp.o"
+  "CMakeFiles/CopyConstructor.dir/src/main.cpp.o"
   "../../bin/CopyConstructor.pdb"
   "../../bin/CopyConstructor"
 )

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/inheritance/example1/src/main.cpp" "/home/mayur/practice/build/inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.o"
-  "/home/mayur/practice/inheritance/example1/src/shape.cpp" "/home/mayur/practice/build/inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.o"
-  "/home/mayur/practice/inheritance/example1/src/squere.cpp" "/home/mayur/practice/build/inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.o"
+  "/home/sp49377/practice/inheritance/example1/src/main.cpp" "/home/sp49377/practice/build/inheritance/example1/CMakeFiles/inheritance1.dir/src/main.cpp.o"
+  "/home/sp49377/practice/inheritance/example1/src/shape.cpp" "/home/sp49377/practice/build/inheritance/example1/CMakeFiles/inheritance1.dir/src/shape.cpp.o"
+  "/home/sp49377/practice/inheritance/example1/src/squere.cpp" "/home/sp49377/practice/build/inheritance/example1/CMakeFiles/inheritance1.dir/src/squere.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

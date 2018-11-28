@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mayur/practice
+CMAKE_SOURCE_DIR = /home/sp49377/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mayur/practice/build
+CMAKE_BINARY_DIR = /home/sp49377/practice/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles /home/mayur/practice/build/constructor/defaultconstructor/CMakeFiles/progress.marks
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayur/practice/build/CMakeFiles 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles /home/sp49377/practice/build/constructor/defaultconstructor/CMakeFiles/progress.marks
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sp49377/practice/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/clean
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/preinstall
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/rule:
-	cd /home/mayur/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/rule
+	cd /home/sp49377/practice/build && $(MAKE) -f CMakeFiles/Makefile2 constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/rule
 .PHONY : constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ DefaultConstructor: constructor/defaultconstructor/CMakeFiles/DefaultConstructor
 
 # fast build rule for target.
 DefaultConstructor/fast:
-	cd /home/mayur/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build
+	cd /home/sp49377/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build
 .PHONY : DefaultConstructor/fast
 
 src/dfconst.o: src/dfconst.cpp.o
@@ -131,7 +131,7 @@ src/dfconst.o: src/dfconst.cpp.o
 
 # target to build an object file
 src/dfconst.cpp.o:
-	cd /home/mayur/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/dfconst.cpp.o
+	cd /home/sp49377/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/dfconst.cpp.o
 .PHONY : src/dfconst.cpp.o
 
 src/dfconst.i: src/dfconst.cpp.i
@@ -140,7 +140,7 @@ src/dfconst.i: src/dfconst.cpp.i
 
 # target to preprocess a source file
 src/dfconst.cpp.i:
-	cd /home/mayur/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/dfconst.cpp.i
+	cd /home/sp49377/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/dfconst.cpp.i
 .PHONY : src/dfconst.cpp.i
 
 src/dfconst.s: src/dfconst.cpp.s
@@ -149,7 +149,7 @@ src/dfconst.s: src/dfconst.cpp.s
 
 # target to generate assembly for a file
 src/dfconst.cpp.s:
-	cd /home/mayur/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/dfconst.cpp.s
+	cd /home/sp49377/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/dfconst.cpp.s
 .PHONY : src/dfconst.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -158,7 +158,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/mayur/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/main.cpp.o
+	cd /home/sp49377/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -167,7 +167,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/mayur/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/main.cpp.i
+	cd /home/sp49377/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -176,7 +176,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/mayur/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/main.cpp.s
+	cd /home/sp49377/practice/build && $(MAKE) -f constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/build.make constructor/defaultconstructor/CMakeFiles/DefaultConstructor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mayur/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sp49377/practice/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

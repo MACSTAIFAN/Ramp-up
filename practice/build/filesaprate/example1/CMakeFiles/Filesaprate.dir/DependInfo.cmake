@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mayur/practice/filesaprate/example1/src/Point.cpp" "/home/mayur/practice/build/filesaprate/example1/CMakeFiles/Filesaprate.dir/src/Point.cpp.o"
-  "/home/mayur/practice/filesaprate/example1/src/Rectangle.cpp" "/home/mayur/practice/build/filesaprate/example1/CMakeFiles/Filesaprate.dir/src/Rectangle.cpp.o"
-  "/home/mayur/practice/filesaprate/example1/src/main.cpp" "/home/mayur/practice/build/filesaprate/example1/CMakeFiles/Filesaprate.dir/src/main.cpp.o"
+  "/home/sp49377/practice/filesaprate/example1/src/Point.cpp" "/home/sp49377/practice/build/filesaprate/example1/CMakeFiles/Filesaprate.dir/src/Point.cpp.o"
+  "/home/sp49377/practice/filesaprate/example1/src/Rectangle.cpp" "/home/sp49377/practice/build/filesaprate/example1/CMakeFiles/Filesaprate.dir/src/Rectangle.cpp.o"
+  "/home/sp49377/practice/filesaprate/example1/src/main.cpp" "/home/sp49377/practice/build/filesaprate/example1/CMakeFiles/Filesaprate.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

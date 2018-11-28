@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/sharedpointer2.dir/inc/prog.cpp.o  -o ../../bin/sharedpointer2 -rdynamic -lpthread -lrt 

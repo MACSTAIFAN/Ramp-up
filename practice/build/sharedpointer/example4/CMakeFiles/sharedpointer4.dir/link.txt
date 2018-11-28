@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/sharedpointer4.dir/inc/mutex.cpp.o  -o ../../bin/sharedpointer4 -rdynamic -pthread -lpthread -lstdc++ 
