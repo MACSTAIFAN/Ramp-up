@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/inheritance3.dir/src/pharmacy.cpp.o CMakeFiles/inheritance3.dir/src/main.cpp.o CMakeFiles/inheritance3.dir/src/bill.cpp.o  -o ../../bin/inheritance3 -rdynamic 

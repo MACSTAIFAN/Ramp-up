@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11   CMakeFiles/Designpattern2.dir/inc/main.cpp.o  -o ../../bin/Designpattern2 -rdynamic 

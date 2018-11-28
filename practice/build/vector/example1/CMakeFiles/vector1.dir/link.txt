@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/vector1.dir/inc/vector.cpp.o  -o ../../bin/vector1 -rdynamic 

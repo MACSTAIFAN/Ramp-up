@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/template3.dir/inc/template3.cpp.o  -o ../../bin/template3 -rdynamic 

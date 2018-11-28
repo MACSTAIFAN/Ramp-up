@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/class.dir/inc/friendfunc.cpp.o  -o ../../../bin/class -rdynamic 

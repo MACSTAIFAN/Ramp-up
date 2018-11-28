@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/map2.dir/inc/mpoperator.cpp.o  -o ../../bin/map2 -rdynamic 

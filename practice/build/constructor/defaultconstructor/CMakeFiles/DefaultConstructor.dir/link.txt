@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/DefaultConstructor.dir/src/main.cpp.o CMakeFiles/DefaultConstructor.dir/src/dfconst.cpp.o  -o ../../bin/DefaultConstructor -rdynamic 

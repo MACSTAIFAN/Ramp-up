@@ -1,1 +1,0 @@
-/usr/bin/c++   -lrt   CMakeFiles/sharedpointer3.dir/inc/ipc.cpp.o  -o ../../bin/sharedpointer3 -rdynamic -pthread -lpthread -lrt 
